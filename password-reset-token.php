@@ -34,8 +34,8 @@ if(isset($_POST['password-reset-token']) && $_POST['email'])
     $mail->IsSMTP();
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;                  
-    $mail->Username = "josepnavalms@gmail.com";
-    $mail->Password = "nipriywvplqlmasq";
+    $mail->Username = "#";
+    $mail->Password = "#";
     $mail->SMTPSecure = "ssl";  
     $mail->Port = "465";
 
